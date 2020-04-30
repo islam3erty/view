@@ -1347,7 +1347,7 @@ Muvaffaqiyatli bo'ling va sharafli bo'ling! ",
 
 ////----
 if ($chatid == $ADMIN or $Clever_APIChatsSu == $ADMIN) {
-    if ($CCA_TEXT_T == "/panrl") {
+    if ($CCA_TEXT_T == "/panel") {
         file_put_contents("data/$Clever_APIChatsSu/ali.txt", "no");
         sendAction($Clever_APIChatsSu, 'typing');
         bot('sendmessage', [
