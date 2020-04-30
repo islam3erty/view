@@ -126,7 +126,7 @@ $CCA_TEXT_T = $Clever_APIChatsMS->text;
 
 
 $ADMIN = 1139073652; //ADMIN Id si 1
-$bot = "KinoPM"; //botiz useri @ siz yozing 2
+$bot = "KinoPMBot"; //botiz useri @ siz yozing 2
 $Clever_CodersChnsl = "KinoPM"; //kanaliz useri @ siz yozing 3
 $CCAmyadmin = "Alimardon7755"; //admin useri @ siz yozing 4 TAMOM
 
@@ -1608,7 +1608,7 @@ Lotin harfida❗️",
                $Clever_APICodes = file_get_contents("data/code.txt");
         $Clever_APICodes2 = file_get_contents("data/code2.txt");
         bot('sendMessage', [
-            'chat_id' => @$Clever_CodersChnsl,
+            'chat_id' => @KINOPM,
             'text' => "PROMOKOD
 
 KOD: $Clever_APICodes
